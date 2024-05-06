@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color: 
+}
+
+:root {
+   --background-main: #64748b;
+   --text-color: #f1f5f9;
+   nav-background:##475569
+}
+
+body {
+    background: var(--background-main);
+    color: var(--text-color);
+    display:flex;
+    flex-direction: column;
+    min-height: svh;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+}
+nav {
+   nav-background:var(--#475569)
+    background:#475569 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: fit-content;
+    padding: 10px;
+}
